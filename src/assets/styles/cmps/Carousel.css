@@ -1,0 +1,56 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* ליישור אופקי אם צריך */
+}
+
+.slide {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: opacity 0.5s ease-in-out;
+  filter: brightness(70%);
+}
+
+.slide-hidden {
+  opacity: 0;
+}
+
+
+
+.carousel-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  color: var(--clr4);
+  z-index: 10;
+}
+
+.carousel-content h1 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+
+/* מובייל גדול */
+@media (max-width: 768px) {
+
+  .carousel-content h1 {
+  font-size: 1.3rem;
+  text-align: center;
+  color: antiquewhite;
+}
+}

@@ -1,0 +1,18 @@
+/* Setup */
+@import 'setup/vars.css';
+@import 'setup/typography.css';
+
+/* Base */
+@import 'basics/base.css';
+
+
+/*Views*/
+
+
+/*Componetes*/
+@import 'cmps/Header.css';
+@import 'cmps/Navbar.css';
+@import 'cmps/Logo.css';
+@import 'cmps/HamburgerBtn.css';
+@import 'cmps/Carousel.css';
+

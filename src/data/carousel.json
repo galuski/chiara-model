@@ -1,0 +1,33 @@
+{
+  "slides": [
+    {
+      "src": "./public/images/hero/1.jpg",
+      "alt": "img1"
+    },
+
+    {
+      "src": "./public/images/hero/2.avif",
+      "alt": "img2"
+    },
+    {
+      "src": "./public/images/hero/3.jpg",
+      "alt": "img3"
+    }
+  ],
+
+  "slides-mobile": [
+    {
+      "src": "./public/images/hero/1.jpg",
+      "alt": "img1"
+    },
+
+    {
+      "src": "./public/images/hero/2.avif",
+      "alt": "img2"
+    },
+    {
+      "src": "./public/images/hero/3.jpg",
+      "alt": "img3"
+    }
+  ]
+}
