@@ -3,6 +3,9 @@ import { Carousel } from "./cmps/Carousel"
 import { Header } from "./cmps/Header"
 
 import carouselData from "./data/carousel.json";
+import { About } from "./cmps/About";
+import { Brands } from "./cmps/Brands";
+import { Counter } from "./cmps/Counter";
 
 
 function App() {
@@ -24,6 +27,9 @@ function App() {
       <Header />
       <main>
         <Carousel data={slides} />
+        <About />
+        <Counter />
+        <Brands />
       </main>
     </>
   )

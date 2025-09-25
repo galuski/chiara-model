@@ -1,17 +1,25 @@
 {
   "slides": [
     {
-      "src": "./public/images/hero/1.jpg",
+      "src": "./public/images/horizontal/1.jpeg",
       "alt": "img1"
     },
 
     {
-      "src": "./public/images/hero/2.avif",
+      "src": "./public/images/horizontal/2.jpeg",
       "alt": "img2"
     },
     {
-      "src": "./public/images/hero/3.jpg",
+      "src": "./public/images/horizontal/3.jpeg",
       "alt": "img3"
+    },
+    {
+      "src": "./public/images/horizontal/4.jpeg",
+      "alt": "img4"
+    },
+    {
+      "src": "./public/images/horizontal/5.jpeg",
+      "alt": "img5"
     }
   ],
 

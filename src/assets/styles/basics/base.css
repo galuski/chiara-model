@@ -6,6 +6,9 @@
 
 body {
   font-family: DMSans;
+  margin-top: 110px;
+  background-color: var(--clr-bg);
+
 }
 
 h1,
@@ -28,5 +31,13 @@ a {
 }
 
 p {
-  color: black;
+p {
+  font-family: 'Lora', 'Georgia', serif; /* פונט קריא ואלגנטי לטקסט רץ */
+  font-size: 1.125rem;  /* בערך 18px – נעים לקריאה במסכים */
+  line-height: 1.6;     /* גובה שורה, יוצר ריווח אוורירי */
+  color: var(--clr-txt1);          /* לא שחור מוחלט (#000) אלא טון מעט רך */
+  margin-bottom: 1rem;   /* ריווח בין פסקאות */
+  max-width: 65ch;      /* מגביל את אורך השורה ל־65 תווים בערך */
 }
+}
+

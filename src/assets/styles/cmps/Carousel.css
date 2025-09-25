@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center; /* ליישור אופקי אם צריך */
+  margin-bottom: 100px;
 }
 
 .slide {
@@ -29,18 +30,18 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 0;
+  top: 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 25px;
-  color: var(--clr4);
+  color: var(--clr-bg);
   z-index: 10;
 }
 
 .carousel-content h1 {
-  font-size: 1.6rem;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -48,9 +49,23 @@
 /* מובייל גדול */
 @media (max-width: 768px) {
 
+  .carousel-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  color: var(--clr-bg);
+  z-index: 10;
+}
+
   .carousel-content h1 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-align: center;
-  color: antiquewhite;
+  color: var(--clr-bg);
 }
 }

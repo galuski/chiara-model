@@ -1,0 +1,45 @@
+.counter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.counter-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-number {
+  font-size: 3rem;
+  color: #d4af37;
+}
+.counter-title {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  color: var(--clr-txt2);
+}
+
+@media (max-width: 450px) {
+  .counter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 60px;
+  }
+
+  .counter-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

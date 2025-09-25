@@ -13,6 +13,10 @@
 @import 'cmps/Header.css';
 @import 'cmps/Navbar.css';
 @import 'cmps/Logo.css';
-@import 'cmps/HamburgerBtn.css';
+@import 'cmps/HamburgerButton.css';
 @import 'cmps/Carousel.css';
+@import 'cmps/HeroButton.css';
+@import 'cmps/About.css';
+@import 'cmps/Counter.css';
+@import 'cmps/Brands.css';
 

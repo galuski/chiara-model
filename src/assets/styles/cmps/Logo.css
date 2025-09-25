@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translateX(-16px);
 }
 
 .logo-name-container {
@@ -11,6 +12,9 @@
   font-size: 1rem;
   text-align: end;
   z-index: 2; /* השם מעל הכל */
+}
+.logo-name-container p {
+  color: var(--clr-txt1);
 }
 
 .logo-circle {
@@ -22,12 +26,16 @@
 .logo-circle-text {
   font-size: 0.9rem;
   font-family: DMSans;
-  fill: #808080;
+  fill: var(--clr-txt2);
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { HeroButton } from "./HeroButton";
 
 export function Carousel({ data }) {
   const [slide, setSlide] = useState(0);
@@ -23,6 +24,7 @@ export function Carousel({ data }) {
       ))}
       <div className="carousel-content">
         <h1>Model • UGC Creator • Brand Ambassador</h1>
+              <HeroButton text="Contact" href="#contact" />
       </div>
     </div>
 

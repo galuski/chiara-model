@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { HamburgerBtn } from "./HamburgerBtn";
+import { HamburgerButton } from "./HamburgerButton";
 import { Logo } from "./Logo";
 import { Navbar } from "./Navbar";
 
@@ -13,7 +13,7 @@ export function Header() {
         <header>
             <Logo />
             <Navbar menuOpen={menuOpen}/>
-            <HamburgerBtn onToggle={handleToggle}/>
+            <HamburgerButton onToggle={handleToggle}/>
         </header>
     )
 }
